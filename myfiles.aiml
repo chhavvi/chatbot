@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>
+        hi bot
+    </pattern>
+    <template>
+        Hello sir
+    </template>
+</category>
+<category>
+    <pattern>
+        Hello friend
+    </pattern>
+    <template>
+        <srai>hi bot</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        how are uh 
+    </pattern>
+    <template>
+        <random>
+            <li>
+                u asking me really
+            </li>
+            <li>
+                m cool
+            </li>
+            <li>
+                i am gud how about uh
+            </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>
+       what is the capital of *
+    </pattern>
+    <template>
+    <map name="countrycapital"> <star/> </map> the capital of <star/>
+       
+    </template>
+</category>
+</aiml>
